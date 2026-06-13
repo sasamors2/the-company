@@ -4,7 +4,7 @@ require_once 'Database.php';
 // inherit Database class to allow User class to have connection to the database
 class User extends Database
 {
-
+     //store() used to store data on db
     public function store($request)
     {
 
